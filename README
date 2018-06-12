@@ -1,0 +1,5 @@
+This is a Snakemake that I use when creating array CGH tracks for the browser to identify CNV events 
+
+bedGraph to bigWig 
+
+
