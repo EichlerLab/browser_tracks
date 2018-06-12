@@ -1,0 +1,11 @@
+{
+    "manifestpath" :"manifest/",
+    "manifestnames" : "manifest.txt",
+    "chromInfo" : "/net/eichler/vol2/eee_shared/assemblies/hg19/chromInfo.txt",
+    "cluster_settings" : {
+                           "heaviest" : " -l mfree=20G -l h_rt=48:00:00 -q eichler-short.q  -l disk_free=10G  ",
+                           "heavy"    : " -l mfree=20G -l h_rt=24:00:00 -q eichler-short.q  -l disk_free=10G ",
+                           "lite"    : " -l mfree=2G -l h_rt=00:10:00 -q eichler-short.q  "
+        }
+
+}
