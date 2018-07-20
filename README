@@ -2,4 +2,6 @@ This is a Snakemake that I use when creating array CGH tracks for the browser to
 
 bedGraph to bigWig 
 
+Modules needed: 
+module load ucsc/20140617
 
