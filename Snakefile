@@ -8,7 +8,7 @@ BOX = ['low','high','norm']
 localrules: makebed
 
 def createFullPath (wildcards):
-	fullPath = "manifest/{holder}".format(holder=wildcards.rpkm)
+	fullPath = "{pathTo}/{holder}".format(holder=wildcards.rpkm,pathTo=pathToInp)
 	return fullPath
 
 def onlyFilename (wildcards):
